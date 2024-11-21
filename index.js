@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const apiKey = "825f7986f2e6bd8b1f6f159c9919c80e";
+  const apiKey = config.MY_KEY;
   const searchBox = document.querySelector(".search input");
   const searchButton = document.querySelector(".search button");
   const error2 = document.querySelector(".error");
